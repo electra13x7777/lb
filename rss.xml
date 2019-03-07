@@ -12,6 +12,45 @@
 <!-- LB -->
 
 <item>
+<title>This Is A Blog</title>
+<guid>http://www.alexbarney.xyz/2019.html#this-is-a-blog.html</guid>
+<pubDate>Thu, 07 Mar 2019 09:59:49 -0500</pubDate>
+<description><![CDATA[
+<p>
+		So this is kind of a test blog post. Here is a list of things that I need to get working (btw if you are able to read this that means I did lol)
+</p>
+<ul>
+		<li>
+				Functional Rolling Blog Page
+		</li>
+		<li>
+				RSS Feed
+		</li>
+		<li>
+				Hope and pray that Apache doesn't ruin my life...
+		</li>
+</ul>
+]]></description>
+</item>
+
+
+
+
+<item>
+<title>Options +Indexes
+test
+Test Blog Post</title>
+<guid>http://www.alexbarney.xyz/2019.html#</guid>
+<pubDate>Options +IndexesThu, 07 Mar 2019 09:41:22 -0500</pubDate>
+<description><![CDATA[
+
+]]></description>
+</item>
+
+
+
+
+<item>
 <title>This is what a post looks like</title>
 <guid>https://lukesmith.xyz/2018.html#this-is-what-a-post-looks-like</guid>
 <pubDate>Wed, 16 May 2018 14:38:38 -0700</pubDate>
