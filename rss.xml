@@ -12,6 +12,37 @@
 <!-- LB -->
 
 <item>
+<title>Why we Shouldn't Get Hung up on What Language we Write in (most of the time)</title>
+<guid>http://www.alexbarney.xyz/2019.html#why-we-shouldnt-get-hung-up-on-what-language-we-write-in-most-of-the-time.html</guid>
+<pubDate>Fri, 08 Mar 2019 11:15:58 -0500</pubDate>
+<description><![CDATA[
+<p>
+	So I made a youtube video discussing this topic, however I am not too satisfied with the way it turned out so I thought, "Hey I have a blog now!" so I hope to clarify my point here.
+</p>
+
+<ol type="i">
+	<li>Program Efficiency vs. Programmer Efficency</li>
+		<p>
+			One important concept that we need to first understand before we write any piece of software is obviously its end user purpose. What problem are we solving? Who will be using it? How often will we use it? etc. etc. It is imperative as an engineer of any discipline to think about things like these in order to effectivly solve problems. Software developers should also understand the differences between "Program Efficiency" and "Programmer Efficiency". Program efficiency is as it suggests, how good the software is at getting its job done (the Big O if you will). Programmer efficiency is how quickly the developer is at writing the software. Knowing that context is one of the main factors to take into account when writing software, let's take a look at two different development scenarios and compare them. On one hand we have an enterprise developer working on a large project that is set to be delivered to lots and lots of people who will depend on it for their professions. On the other hand we have a freelance developer who wants to write a program to pull some updates from the web and do some things once every time they restart their computer. The former would favor the developer to write in a language that would be able to run very efficiently however that may come at the cost of having to spend a lot of time in development. The latter would most likely favor a language that can get the task done relativly quickly (since it would be run very seldom the actual runtime wouldn't matter too much) but can be written very quickly.
+		</p>
+	<li>Arbitrarily Introduced Workflow Bottlenecks</li>
+		<p>
+			This is something that I feel needs to be addressed. No one language is the most effective tool to solve every problem. This is, in itself, self evident. Why would we have as many languages as we do today if there was a "Best Language". If you have a task to complete, and there is an option that is obviously best suited for said task, you should utilize it. Let's say I need to do a heavy ammount of text processing and the languages I have available to me are C, AWK, and Python. Even though I have the most experience writing in C, I would have to be absolutely insane to use it over the other two since C is truly awful with strings (this is actually the reason why Aho, Weinberger, and Kernighan made AWK). While the resulting program might be more efficient at its task, you could write a short python program or probably an even shorter awk program in far less time. By writing this program in C just for the sake of writing it in C, you would effectivly be introducing bottlenecks into your workflow for absolutely no reason. Even though it is steriotypical of programmers to be "lazy" some people may have this problem where they add uneccessary difficulties. There is no rational reason to be doing this and all it really does is make things more complicated.
+		</p>
+	<li>Specialization vs. Adaptation &amp; Languages</li>
+		<p>
+			The above points are not meant as arguments against specialization as a developer. It is very important that a software developer has a language or a group of languages that they are especially proficient in writing in. A good developer is able to find a niche for themselves and provide effective solutions within that niche. With that said, it may be an even more important to be able to adapt to whatever you need to do. In the workplace, there is a good chance that you will get thrown on to a project that is using a language or a framework that you have never worked with before. For some, this may seem like a disaster since they would be reluctant to move away from what they are used to new, seemingly uncharted territories. However, if you have been writing code for a while in a few different languages, this is really not that sisyphean a task. While, much like natural languages, syntax varies from programming language to programming language, similarities between them are easier to find than one may think. All relevant languages are based on common linguistic principles and are generally Turing complete. Moreover the progression of programming languages has been distinctly different form natural languages. Both emerge based on necesity, but programming languages are much more planned out as they are made. Whereas natural languages have related languages that spring up and evolve over time, programming languages are generally forks of existing languages. A good example of this is the "C Family". For languages that are based on C, it is very easy to spot syntactic similarities. Whether you are looking at C++, Java, Python, JS, ect. there are generally commonalities between all of them. This makes learning a C based language when you already know one, a pretty painless task. This does not just apply to the C family either. If you know LaTeX, HTML and MarkDown will be easy to learn. If you know Lisp, Haskell will probably not take too long to pick up. ect. A deep understanding of programming concepts is much more important than an understanding of a single language. One thing I can't stand is seeing the copious "Top X Programming Languages in THE CURRENT YEAR" videos on the internet. That is such a counterproductive mindset to have as a developer. First you need to understand how to write software. When you have developed that understanding, then you can find a language to write in that would be beneficial to whatever you are working on. This goes back to adapting to whatever satifies your current needs. While specialization is important to filling your role as a developer, being able to adapt to necesity is also a very important skill to have. To someone who can adapt to their environment effectivly, the language they are writing in is less a hurdle to circumvent, but moreso a tool that they strive to learn to effectivly use. And the more tools they are able to effectivly use, the more they can get done in an efficient manner.
+		</p>
+</ol>
+
+<p>
+	Anyways, that's my two cents on the topic. If you have something to say about this, feel free to send me an email.
+</p>
+]]></description>
+</item>
+
+
+<item>
 <title>The Blog is Live Lads!</title>
 <guid>http://www.alexbarney.xyz/2019.html#the-blog-is-live-lads.html</guid>
 <pubDate>Thu, 07 Mar 2019 20:26:36 -0500</pubDate>
